@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   littleBox: {
     width: 50,
     height: 50,
-    backgroundColor: 'rgba(255, 255, 255, 0.33)',
+    backgroundColor: 'rgba(255, 255, 255, 0.49)',
     borderRadius: 10,
     borderWidth: 2,
     borderColor: '#ffffff7a',
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   },
   blackBox: {
     width: '100%',
-    backgroundColor: '#0000009f',
+    backgroundColor: '#000000b6',
     // height: 100, 
     borderRadius: 30,
     marginTop: 30,
