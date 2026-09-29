@@ -10,6 +10,8 @@ export default function App() {
     <ImageBackground  source={require('./src/assets/images/photo.png')} style={styles.container}>
       <StatusBar style="auto" />
 
+<View style={{backgroundColor:'#00000071', ...StyleSheet.absoluteFillObject}}/>
+
       <View style={{ flexDirection: 'row', gap: 15 }}>
         <View style={styles.littleBox}>
           <Image source={require('./src/assets/icons/flag.png')} style={styles.boxImage} />
@@ -57,7 +59,7 @@ export default function App() {
           <View style={styles.textInput}>
             <Image source={require('./src/assets/icons/lock.png')} style={{ height: 35, width: 35 }} />
             <TextInput
-              placeholder='you@example.com'
+              placeholder='Password'
               placeholderTextColor={'white'}
               secureTextEntry={true}
               style={{ fontSize: 18, color: 'white', width: '100%' }} />
